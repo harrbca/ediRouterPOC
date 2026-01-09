@@ -1,0 +1,40 @@
+{
+  "partners": [
+    {
+      "partner_id": "6048558786",
+      "partner_name": "Partner A - Example",
+      "protocol": "sftp",
+      "host": "ftp.partnera.com",
+      "port": 22,
+      "username": "user123",
+      "password": "pass123",
+      "outbound_path": "/outbox",
+      "inbound_path": "/inbox",
+      "enabled": true
+    },
+    {
+      "partner_id": "5196642252",
+      "partner_name": "Partner B - Example",
+      "protocol": "ftp",
+      "host": "ftp.partnerb.com",
+      "port": 21,
+      "username": "userB",
+      "password": "passB",
+      "outbound_path": "/outbox",
+      "inbound_path": "/inbox",
+      "enabled": true
+    },
+    {
+      "partner_id": "4039320009",
+      "partner_name": "Partner C - Example",
+      "protocol": "sftp",
+      "host": "sftp.partnerc.com",
+      "port": 22,
+      "username": "userC",
+      "password": "passC",
+      "outbound_path": "/edi/outbox",
+      "inbound_path": "/edi/inbox",
+      "enabled": true
+    }
+  ]
+}

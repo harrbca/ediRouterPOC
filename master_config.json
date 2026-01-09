@@ -1,0 +1,16 @@
+{
+  "local_folders": {
+    "outbound_pickup": "C:/edi/outbound",
+    "outbound_archive": "C:/edi/outbound/archive",
+    "inbound_dropoff": "C:/edi/inbound"
+  },
+  "archive_templates": {
+    "archive_path_template": "",
+    "archive_filename_template": "{filename}_{timestamp}.{extension}"
+  },
+  "logging": {
+    "log_folder": "C:/edi/logs",
+    "log_level": "INFO",
+    "ftp_debug_level": 1
+  }
+}
